@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Sembrando Futuro: aprendemos a cultivar y cuidar nuestro planeta.">
+<title>Sembrando Futuro 🌱</title>
+<style>
+:root{--g:#456b45;--sage:#e8efdf;--cream:#fffaf0;--pink:#f7e6e2;--lav:#eee8f5;--ink:#344b35}
+*{box-sizing:border-box;scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.65 "Trebuchet MS",Arial,sans-serif}
+header{position:sticky;top:0;background:#edf2e9ed;backdrop-filter:blur(8px);z-index:5;border-bottom:1px solid #dce6d4}
+.nav{max-width:1100px;margin:auto;padding:14px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.brand{font-size:22px;font-weight:900;color:var(--g);text-decoration:none}nav{display:flex;gap:20px;flex-wrap:wrap}nav a{color:var(--ink);text-decoration:none;font-weight:bold;font-size:14px}
+.menu{display:none;border:0;background:var(--sage);padding:9px 12px;border-radius:10px;font-size:20px}
+.hero{max-width:1100px;margin:auto;padding:60px 22px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:30px}
+.eyebrow,.pill{font-size:12px;letter-spacing:2px;font-weight:900;color:#78946f}.pill{letter-spacing:1px;background:#e9f0df;padding:7px 13px;border-radius:30px}
+h1{font-size:clamp(46px,7vw,78px);line-height:1;margin:18px 0;color:var(--g)}h1 span{color:#a17e9a}
+.lead{font-size:20px;color:#637560}.btn{display:inline-block;margin:10px 10px 0 0;padding:12px 20px;border-radius:30px;background:var(--g);color:white;text-decoration:none;font-weight:bold}.btn.light{background:transparent;color:var(--g);border:2px solid var(--g)}
+.art{min-height:340px;border-radius:30px;background:linear-gradient(145deg,#e7efdc,#f7e8df);display:grid;place-items:center;text-align:center;font-size:76px;border:8px solid white;box-shadow:0 12px 30px #405d351c}.art div{font-size:18px;font-weight:bold;color:var(--g)}
+section{padding:65px 22px}.inner{max-width:1050px;margin:auto}.soft{background:#f0f4e9}.head{text-align:center;max-width:700px;margin:0 auto 30px}.head h2{font-size:38px;color:var(--g);margin:8px 0}.head p{color:#657661}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:center}.panel{padding:30px;border-radius:26px;background:#e6efdc}.panel h2{font-size:34px;line-height:1.15;color:var(--g)}
+.values,.cards,.tips{display:grid;gap:16px}.values{grid-template-columns:1fr 1fr;margin-top:20px}.value{background:#fffdf7;border-radius:14px;padding:12px;font-weight:bold}
+.cards{grid-template-columns:repeat(3,1fr)}.card{padding:24px;border-radius:22px;background:white;border:1px solid #e5e8d9;box-shadow:0 8px 22px #4b634012}.card:nth-child(2),.card:nth-child(5){background:var(--lav)}.card:nth-child(3),.card:nth-child(6){background:var(--pink)}.ico{font-size:36px}.card h3{color:var(--g);margin:5px 0}
+.tips{grid-template-columns:1fr 1fr}.tip{background:white;border-radius:17px;padding:17px;display:flex;gap:12px}.tip span{font-size:27px}
+.contact{background:var(--pink);border-radius:28px;padding:32px;text-align:center}.contact a{color:var(--g);font-weight:bold}
+footer{text-align:center;background:#355638;color:#fffbea;padding:26px}
+@media(max-width:760px){.hero,.split{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}}
+@media(max-width:540px){.menu{display:block}nav{display:none;position:absolute;top:62px;left:12px;right:12px;background:#f7f7eb;padding:18px;border-radius:16px;flex-direction:column}nav.open{display:flex}.cards,.tips{grid-template-columns:1fr}.values{grid-template-columns:1fr}.hero{padding-top:35px}.art{min-height:230px}}
+</style></head><body>
+<header><div class="nav"><a class="brand" href="#inicio">🌿 Sembrando Futuro</a><button class="menu" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Abrir menú">☰</button>
+<nav><a href="#inicio">Inicio</a><a href="#nosotros">Sobre nosotros</a><a href="#actividades">Actividades</a><a href="#consejos">Consejos</a><a href="#contacto">Contacto</a></nav></div></header>
+<main>
+<section class="hero" id="inicio"><div><span class="eyebrow">CAMPAÑA ESCOLAR AMBIENTAL</span><h1>Sembrando<br><span>Futuro</span></h1><p class="lead"><b>Pequeñas semillas, grandes cambios.</b><br>Un espacio para aprender, cultivar y cuidar juntos nuestro planeta. ¡La aventura comienza en nuestra huerta escolar!</p><a class="btn" href="#nosotros">Conócenos 🌼</a><a class="btn light" href="#actividades">Ver actividades</a></div>
+<div class="art"><div>🌱 🌼 🥕<br><span style="font-size:90px">👩🏻‍🌾</span><br>¡Cultivemos juntos<br>un mundo más verde! 🐝</div></div></section>
+<section class="soft" id="nosotros"><div class="inner split"><div class="panel"><span class="pill">QUIÉNES SOMOS</span><h2>Una semilla puede iniciar un gran cambio.</h2><p>Somos una campaña escolar que busca promover la huerta como un espacio de aprendizaje, participación y conciencia ambiental. Queremos acercar a los estudiantes a la naturaleza y demostrar que cuidar el planeta empieza con pequeñas acciones.</p></div><div><h2 style="color:var(--g)">Nuestra misión 💚</h2><p>Motivar a la comunidad educativa a conocer, crear y cuidar una huerta escolar, fortaleciendo el trabajo en equipo y los hábitos responsables con el medioambiente.</p><div class="values"><div class="value">🌿 Respeto por la naturaleza</div><div class="value">🤝 Trabajo en equipo</div><div class="value">💧 Uso responsable del agua</div><div class="value">♻️ Aprovechamiento de residuos</div></div></div></div></section>
+<section id="actividades"><div class="inner"><div class="head"><span class="pill">APRENDE Y PARTICIPA</span><h2>Actividades para cultivar ideas</h2><p>Descubre formas divertidas de aprender sobre la huerta y convertirte en parte del cambio.</p></div><div class="cards">
+<article class="card"><div class="ico">🎯</div><h3>Retos ecológicos</h3><p>Responde preguntas y pon a prueba tus conocimientos sobre el cuidado del planeta.</p></article>
+<article class="card"><div class="ico">🌱</div><h3>Conoce las plantas</h3><p>Aprende cómo germinan las semillas y qué necesitan para crecer sanas.</p></article>
+<article class="card"><div class="ico">🧩</div><h3>Juegos interactivos</h3><p>Diviértete con adivinanzas, quizzes y actividades sobre los cultivos.</p></article>
+<article class="card"><div class="ico">♻️</div><h3>Reciclaje creativo</h3><p>Descubre cómo reutilizar materiales y separar correctamente los residuos.</p></article>
+<article class="card"><div class="ico">💧</div><h3>Cuidemos el agua</h3><p>Conoce acciones sencillas para evitar el desperdicio de este recurso.</p></article>
+<article class="card"><div class="ico">🌻</div><h3>Manos a la huerta</h3><p>Participa, comparte ideas y ayuda a cuidar los espacios verdes del colegio.</p></article>
+</div></div></section>
+<section class="soft" id="consejos"><div class="inner"><div class="head"><span class="pill">PEQUEÑAS ACCIONES</span><h2>Consejos para una huerta feliz</h2><p>Todos podemos aportar algo para tener un entorno más limpio y saludable.</p></div><div class="tips">
+<div class="tip"><span>💧</span><div><b>Riega con cuidado</b><br>Usa solo el agua necesaria y evita encharcar la tierra.</div></div>
+<div class="tip"><span>☀️</span><div><b>Busca la luz adecuada</b><br>Conoce cuánta luz necesita cada planta.</div></div>
+<div class="tip"><span>🍂</span><div><b>Aprovecha lo orgánico</b><br>Los residuos vegetales adecuados pueden convertirse en compost.</div></div>
+<div class="tip"><span>🧤</span><div><b>Cuida la tierra</b><br>Evita pisar los cultivos y mantén limpio el espacio.</div></div>
+<div class="tip"><span>♻️</span><div><b>Separa los residuos</b><br>Clasifica los materiales para facilitar su aprovechamiento.</div></div>
+<div class="tip"><span>🐝</span><div><b>Respeta a los polinizadores</b><br>Cuida abejas, mariposas y otros visitantes de las flores.</div></div>
+</div></div></section>
+<section id="contacto"><div class="inner contact"><div style="font-size:42px">💌🌷</div><h2 style="color:var(--g)">¡Cultivemos juntos!</h2><p>¿Tienes una idea, un consejo o quieres participar en nuestra campaña? Nos encantará conocer tu aporte.</p><p>Correo: <a href="mailto:sembrandofuturo.huerta@gmail.com">sembrandofuturo.huerta@gmail.com</a></p><b>Pequeñas semillas, grandes cambios 🌱</b></div></section>
+</main><footer><div style="font-size:24px">🌱 Sembrando Futuro 🌱</div><small>Colegio Elisa Borrero de Pastrana · Campaña escolar ambiental<br>Juntos podemos hacer la diferencia. Cuidemos el planeta. 💚</small></footer>
+<script>document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>document.querySelector('nav').classList.remove('open')))</script>
+</body></html>
